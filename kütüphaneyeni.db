@@ -1,0 +1,5 @@
+CREATE TABLE kitaplar(
+Id INTEGER PRIMARY KEY AUTOINCREMENT,
+adi varchar(100),
+yazar varchar(100)
+);

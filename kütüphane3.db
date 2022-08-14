@@ -1,0 +1,7 @@
+SELECT ogrenciler.adi,ogrenciler.soyadi,kitaplar.adi
+FROM 
+ogrenciler INNER JOIN odunc ON odunc.ogr_Id=ogrenciler.Id
+
+INNER JOIN kitaplar ON kitaplar.Id=odunc.kitap_Id
+
+WHERE kitaplar.Id=3;

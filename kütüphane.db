@@ -1,0 +1,2 @@
+INSERT INTO ogrenciler(adi,soyadi,irtibat) VALUES ("Sergen","Yalçın","4622160");
+SELECT*FROM ogrenciler;
